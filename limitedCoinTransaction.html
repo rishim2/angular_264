@@ -1,0 +1,25 @@
+<div>
+    <h2>For limited Number Of Coins:</h2>
+    <h3>Please Enter Amount :</h3>
+    <input type="text" number-validator data-ng-model="value" data-ng-change="fetchChange(value)" />
+
+    <div ng-show="list.length">
+        <p>TYPE OF COINS * NO OF COINS PRESENT:</p>
+        <div ng-repeat="data in list">
+            <span>{{data.coinValue}}</span>
+            <span>*</span>
+            <span>{{data.noOfCoins}}</span>
+        </div>
+    </div>
+    <h3>Change Returned:</h3>
+
+    <div ng-repeat="data in listArr">
+        <span>{{data.res}}</span>
+        <span>*</span>
+        <span>{{data.value}}</span>
+    </div>
+
+    <div ng-show="showMsg">
+        Insufficient Coin Present.
+    </div>
+</div>

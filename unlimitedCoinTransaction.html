@@ -1,0 +1,10 @@
+<div>
+    <p>For Unlimited Number Of Coins:</p>
+    <input type="text" number-validator data-ng-model="valueEntered" data-ng-change="fetchExactChange(valueEntered)" />
+    <h3>Change Returned:</h3>
+    <div ng-repeat="data in arr">
+        <span>{{data.res}}</span>
+        <span>*</span>
+        <span>{{data.value}}</span>
+    </div>
+</div>

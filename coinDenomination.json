@@ -1,0 +1,25 @@
+[{
+    "coinValue": 100
+    , "noOfCoins": 1
+}, {
+
+    "coinValue": 50
+    , "noOfCoins": 10
+}, {
+
+    "coinValue": 25
+    , "noOfCoins": 5
+}, {
+
+    "coinValue": 10
+    , "noOfCoins": 6
+}, {
+    "coinValue": 5
+    , "noOfCoins": 7
+}, {
+    "coinValue": 2
+    , "noOfCoins": 8
+}, {
+    "coinValue": 1
+    , "noOfCoins": 9
+}]
